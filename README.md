@@ -74,11 +74,3 @@ streamlit run interface.py
 
 ---
 
-#### 📈 Future Improvements
-
-* Add more ML models for comparison (e.g., Linear Regression, Random Forest)
-* Implement real-time data updates in Streamlit
-* Deploy the project on a cloud platform (e.g., Render, AWS, or Heroku)
-
----
-
