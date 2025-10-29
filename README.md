@@ -1,2 +1,84 @@
-# HousePrediction_flask
-HousePrediction is a machine learning project that predicts house prices based on various features such as location, area, number of rooms, and more. The project integrates a Flask API for model deployment and a Streamlit interface for interactive visualization and user interaction.
+
+### 🏠 HousePrediction_flask
+
+**HousePrediction_flask** is a machine learning project that predicts house prices based on various input features such as area, location, number of bedrooms, and more. The project combines a **Flask API** for backend model deployment with a **Streamlit interface** for interactive predictions and visualization. It also includes complete **data preprocessing, cleaning, and model training** steps using modern data science tools.
+
+---
+
+#### 🚀 Features
+
+* Comprehensive **data cleaning and preprocessing** using `pandas` and `LabelEncoder`
+* **Exploratory Data Analysis (EDA)** and visualization with `matplotlib` and `seaborn`
+* **Model training** using `XGBoost (XGBRegressor)` for high-performance regression
+* **Model evaluation** with metrics like Mean Absolute Error (MAE) and R² Score
+* **Flask-based API** for model serving and prediction endpoints
+* **Streamlit interface** for user-friendly interaction and result visualization
+* Model persistence using **joblib**
+
+---
+
+#### 🧠 Tech Stack
+
+* **Python**
+* **Flask**
+* **Streamlit**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Seaborn**
+* **Scikit-learn**
+* **XGBoost**
+* **Joblib**
+
+---
+
+#### 📊 Project Workflow
+
+1. **Dataset Preparation**
+
+   * Data loading and cleaning using `pandas`
+   * Encoding categorical variables with `LabelEncoder`
+   * Feature selection and transformation
+   * Exploratory Data Analysis with `matplotlib` and `seaborn`
+
+2. **Model Training**
+
+   * Splitting dataset using `train_test_split`
+   * Training with `XGBRegressor`
+   * Evaluating model performance using `mean_absolute_error` and `r2_score`
+   * Saving trained model using `joblib`
+
+3. **Deployment**
+
+   * Building a **Flask API** to serve predictions
+   * Developing a **Streamlit dashboard** for user interaction
+
+---
+
+#### ⚙️ How to Run
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/HousePrediction_flask.git
+cd HousePrediction_flask
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Flask API
+python app.py
+
+# Run the Streamlit interface
+streamlit run interface.py
+```
+
+---
+
+#### 📈 Future Improvements
+
+* Add more ML models for comparison (e.g., Linear Regression, Random Forest)
+* Implement real-time data updates in Streamlit
+* Deploy the project on a cloud platform (e.g., Render, AWS, or Heroku)
+
+---
+
