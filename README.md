@@ -1,7 +1,7 @@
 
-### 🏠 HousePrediction_flask
+### 🏠 HousePrediction
 
-**HousePrediction_flask** is a machine learning project that predicts house prices based on various input features such as area, location, number of bedrooms, and more. The project combines a **Flask API** for backend model deployment with a **Streamlit interface** for interactive predictions and visualization. It also includes complete **data preprocessing, cleaning, and model training** steps using modern data science tools.
+**HousePrediction** is a machine learning project that predicts house prices based on various input features such as area, location, number of bedrooms, and more. The project uses a **Streamlit interface** for interactive predictions and visualisation. It also includes complete **data preprocessing, cleaning, and model training** steps using modern data science tools.
 
 ---
 
@@ -11,7 +11,6 @@
 * **Exploratory Data Analysis (EDA)** and visualization with `matplotlib` and `seaborn`
 * **Model training** using `XGBoost (XGBRegressor)` for high-performance regression
 * **Model evaluation** with metrics like Mean Absolute Error (MAE) and R² Score
-* **Flask-based API** for model serving and prediction endpoints
 * **Streamlit interface** for user-friendly interaction and result visualization
 * Model persistence using **joblib**
 
@@ -20,7 +19,6 @@
 #### 🧠 Tech Stack
 
 * **Python**
-* **Flask**
 * **Streamlit**
 * **Pandas**
 * **NumPy**
